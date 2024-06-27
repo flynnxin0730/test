@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-27T13:02:42.610Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Q2UQHLhMUv-1BoNNEoVP" version="24.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-27T13:37:00.496Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Gz5Qm2EAJfDNEp0PgCni" version="24.6.3" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1035" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1732" dy="413" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -186,6 +186,302 @@
               <mxPoint x="340" y="350" />
               <mxPoint x="730" y="200" />
               <mxPoint x="280" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-13" value="" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="LWYGNG2XAne2HACN_M2w-35" target="LWYGNG2XAne2HACN_M2w-19">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="250" y="1411" as="sourcePoint" />
+            <mxPoint x="323" y="1239" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="257" y="1412" />
+              <mxPoint x="250" y="1412" />
+              <mxPoint x="49" y="1260.99" />
+              <mxPoint x="174" y="1215.99" />
+              <mxPoint x="265" y="1229.99" />
+              <mxPoint x="152" y="1188.99" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-14" value="" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="LWYGNG2XAne2HACN_M2w-35">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="246" y="1414" as="sourcePoint" />
+            <mxPoint x="375" y="1378" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="653" y="1202" />
+              <mxPoint x="203" y="1242" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-15" value="工单流程表 workorder_process " style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="356" y="1158" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-16" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=#ffe6cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#d79b00;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-15">
+          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-17" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#ffe6cc;top=0;left=0;bottom=0;right=0;fontStyle=1;strokeColor=#d79b00;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-16">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-18" value="id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#ffe6cc;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;strokeColor=#d79b00;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-16">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-19" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=#ffe6cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#d79b00;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-15">
+          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-20" value="FK1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#ffe6cc;top=0;left=0;bottom=0;right=0;strokeColor=#d79b00;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-19">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-21" value="workorder_id  int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#ffe6cc;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#d79b00;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-19">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-22" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=#ffe6cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#d79b00;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-15">
+          <mxGeometry y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-23" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#ffe6cc;top=0;left=0;bottom=0;right=0;strokeColor=#d79b00;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-22">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-24" value="其他属性：略" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#ffe6cc;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#d79b00;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-22">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-25" value="工单费用表  workorder_fee" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="369" y="1306" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-26" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#d6b656;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-25">
+          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-27" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;fontStyle=1;strokeColor=#d6b656;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-26">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-28" value="id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;strokeColor=#d6b656;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-26">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-29" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#d6b656;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-25">
+          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-30" value="FK1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;strokeColor=#d6b656;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-29">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-31" value="workorder_id  int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#d6b656;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-29">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-32" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#d6b656;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-25">
+          <mxGeometry y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-33" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;strokeColor=#d6b656;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-32">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-34" value="其他属性：略" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#d6b656;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-32">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-35" value="工单主表 workorder " style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-2" y="1407" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-36" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=#dae8fc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#6c8ebf;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-35">
+          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-37" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;fontStyle=1;strokeColor=#6c8ebf;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-36">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-38" value="id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;strokeColor=#6c8ebf;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-36">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-39" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=#dae8fc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#6c8ebf;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-35">
+          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-40" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;strokeColor=#6c8ebf;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-39">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-41" value="其他属性：略" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#6c8ebf;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-39">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-42" value="工单采集任务表 workorder_task " style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="375" y="1453" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-43" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=#f8cecc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#b85450;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-42">
+          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-44" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#f8cecc;top=0;left=0;bottom=0;right=0;fontStyle=1;strokeColor=#b85450;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-43">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-45" value="id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#f8cecc;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;strokeColor=#b85450;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-43">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-46" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=#f8cecc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#b85450;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-42">
+          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-47" value="FK1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#f8cecc;top=0;left=0;bottom=0;right=0;strokeColor=#b85450;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-46">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-48" value="worker_id int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#f8cecc;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#b85450;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-46">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-49" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=#f8cecc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#b85450;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-42">
+          <mxGeometry y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-50" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#f8cecc;top=0;left=0;bottom=0;right=0;strokeColor=#b85450;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-49">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-51" value="其他属性：略" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#f8cecc;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#b85450;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-49">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-52" value="" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LWYGNG2XAne2HACN_M2w-36" target="LWYGNG2XAne2HACN_M2w-46">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="243" y="1366" as="sourcePoint" />
+            <mxPoint x="373" y="1381" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="263" y="1366" />
+              <mxPoint x="653" y="1216" />
+              <mxPoint x="203" y="1256" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-53" value="工单表具任务表 workorder_task_meter  " style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="364" y="1612" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-54" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=#e1d5e7;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#9673a6;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-53">
+          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-55" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#e1d5e7;top=0;left=0;bottom=0;right=0;fontStyle=1;strokeColor=#9673a6;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-54">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-56" value="id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#e1d5e7;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;strokeColor=#9673a6;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-54">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-57" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=#e1d5e7;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#9673a6;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-53">
+          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-58" value="FK1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#e1d5e7;top=0;left=0;bottom=0;right=0;strokeColor=#9673a6;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-57">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-59" value="worker_id int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#e1d5e7;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#9673a6;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-57">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-60" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=#e1d5e7;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#9673a6;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-53">
+          <mxGeometry y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-61" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#e1d5e7;top=0;left=0;bottom=0;right=0;strokeColor=#9673a6;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-60">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-62" value="其他属性：略" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#e1d5e7;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#9673a6;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-60">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-63" value="" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LWYGNG2XAne2HACN_M2w-36" target="LWYGNG2XAne2HACN_M2w-57">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="256" y="1428" as="sourcePoint" />
+            <mxPoint x="385" y="1538" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="273" y="1376" />
+              <mxPoint x="663" y="1226" />
+              <mxPoint x="213" y="1266" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-64" value="工单费用明细表  workorder_fee_item" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="686" y="1309" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-65" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=#d6b656;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-64">
+          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-66" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;fontStyle=1;strokeColor=#d6b656;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-65">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-67" value="id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;strokeColor=#d6b656;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-65">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-68" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#d6b656;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-64">
+          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-69" value="FK1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;strokeColor=#d6b656;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-68">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-70" value="fee_id   int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#d6b656;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-68">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-71" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=#d6b656;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-64">
+          <mxGeometry y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-72" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;strokeColor=#d6b656;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-71">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-73" value="其他属性：略" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#d6b656;" vertex="1" parent="LWYGNG2XAne2HACN_M2w-71">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWYGNG2XAne2HACN_M2w-74" value="" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#fff2cc;strokeColor=#d6b656;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LWYGNG2XAne2HACN_M2w-26" target="LWYGNG2XAne2HACN_M2w-68">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="258" y="1440" as="sourcePoint" />
+            <mxPoint x="385" y="1388" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="663" y="1212" />
+              <mxPoint x="372" y="1406" />
+              <mxPoint x="213" y="1252" />
             </Array>
           </mxGeometry>
         </mxCell>
